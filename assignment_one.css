@@ -50,6 +50,7 @@ hr {
 	margin-left: 20%;
 	margin-right: 20%;
 	padding: 10px;
+	min-width: 500px;
 }
 
 .navheader {
@@ -68,17 +69,6 @@ hr {
 
 .linkremove {
 	text-decoration: none;
-}
-
-.sign_up_box {
-	width: 200px;
-	margin-top: 2%;
-	padding: 25px;
-}
-
-.navfooter {
-	background-color: #699ff5;
-	margin: 10px 0px 20px 0px;
 }
 
 .card {
@@ -119,4 +109,35 @@ hr {
 	margin-bottom: 50px;
 	text-align: center;
 }
+
+
+/*replaced .sign_up_box with this*/
+footer form {
+	width: 200px;
+	margin-top: 2%;
+	padding: 25px;
+}
+
+/*adjacent selectors remove need for navfooter class*/
+table + footer {
+	background-color: #699ff5;
+	margin: 10px 0px 0px 0px;
+}
+
+div + footer {
+	background-color: #699ff5;
+	margin: 10px 0px 0px 0px;
+}
+
+
+
+
+
+
+#referenceName {
+	font-size: large;
+	font-weight: bold;
+	margin-bottom: 50%;
+}
+
 
