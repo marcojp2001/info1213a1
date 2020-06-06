@@ -10,6 +10,8 @@ th {
 
 body {
 	font-family: 'Lato', sans-serif;
+	background-color: #d3dbe8;
+	color: #23334a;
 }
 
 p {
@@ -51,6 +53,7 @@ hr {
 	margin-right: 20%;
 	padding: 10px;
 	min-width: 500px;
+	background-color: white;
 }
 
 .navheader {
@@ -77,6 +80,7 @@ hr {
 	margin-left: 75px;
 	margin-right: 75px;
 	margin-bottom: 40px;
+	background-color: white;
 }
 
 .card:hover {
@@ -108,6 +112,8 @@ hr {
 #resumesList {
 	margin-bottom: 50px;
 	text-align: center;
+	font-weight: bold;
+	font-size: xx-large;
 }
 
 
@@ -139,5 +145,4 @@ div + footer {
 	font-weight: bold;
 	margin-bottom: 50%;
 }
-
 
