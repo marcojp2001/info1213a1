@@ -1,17 +1,12 @@
-.font_large {
-	font-size: large;
-	font-weight: bold;
-	margin-left: 20%;
-}
-
-th {
-	font-size: x-large;
-}
-
+/*general selectors*/
 body {
 	font-family: 'Lato', sans-serif;
 	background-color: #d3dbe8;
 	color: #23334a;
+}
+
+th {
+	font-size: x-large;
 }
 
 p {
@@ -24,6 +19,38 @@ hr {
 	height: 1px;
 	background-color: black;
 	background-image: linear-gradient(to right, white, black, white);
+}
+
+footer form {
+	width: 200px;
+	margin-top: 2%;
+	padding: 25px;
+}
+
+/*adjacent selectors remove need for navfooter class*/
+table + footer {
+	background-color: #699ff5;
+	margin: 10px 0px 0px 0px;
+}
+
+div + footer {
+	background-color: #699ff5;
+	margin: 10px 0px 0px 0px;
+}
+
+@media only screen and (max-width: 1800px) {
+	.compress {
+		margin-left: 10%;
+		margin-right: auto;
+		display: inline-block;
+	}
+}
+
+/*class selectors*/
+.font_large {
+	font-size: large;
+	font-weight: bold;
+	margin-left: 20%;
 }
 
 .float_center {
@@ -101,44 +128,13 @@ hr {
 	padding-bottom: 25%;
 }
 
-@media only screen and (max-width: 1800px) {
-	.compress {
-		margin-left: auto;
-		margin-right: auto;
-		display: inline-block;
-	}
-}
-
+/*id selectors*/
 #resumesList {
 	margin-bottom: 50px;
 	text-align: center;
 	font-weight: bold;
 	font-size: xx-large;
 }
-
-
-/*replaced .sign_up_box with this*/
-footer form {
-	width: 200px;
-	margin-top: 2%;
-	padding: 25px;
-}
-
-/*adjacent selectors remove need for navfooter class*/
-table + footer {
-	background-color: #699ff5;
-	margin: 10px 0px 0px 0px;
-}
-
-div + footer {
-	background-color: #699ff5;
-	margin: 10px 0px 0px 0px;
-}
-
-
-
-
-
 
 #referenceName {
 	font-size: large;
